@@ -9,7 +9,7 @@ describe('Qobuz', function () {
   const appId = '18ea6204-882f-11e7-bb31-be2e44b06b34';
 
   describe('ctor', function () {
-    function ctor () {
+    function ctor() {
       new Qobuz(null);
     }
 
@@ -34,12 +34,12 @@ describe('Qobuz', function () {
       client.appId.should.be.equal(appId);
       done();
     });
-  });
 
-  it('should initialize the album endpoint', function (done) {
-    const client = new Qobuz(appId);
+    it('should initialize the album endpoint', function (done) {
+      const client = new Qobuz(appId);
 
-    client.album.should.not.be.null;
-    done();
+      client.album.should.not.be.null;
+      done();
+    });
   });
 });
