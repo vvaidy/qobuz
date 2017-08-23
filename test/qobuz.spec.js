@@ -6,6 +6,8 @@ const Qobuz = require('../lib');
 chai.should();
 
 describe('Qobuz', function () {
+  const appId = '18ea6204-882f-11e7-bb31-be2e44b06b34';
+
   describe('ctor', function () {
     function ctor () {
       new Qobuz(null);
@@ -17,7 +19,6 @@ describe('Qobuz', function () {
     });
 
     it('should set the application ID', function (done) {
-      const appId = '18ea6204-882f-11e7-bb31-be2e44b06b34';
       const client = new Qobuz(appId);
 
       client.appId.should.be.equal(appId);
@@ -25,7 +26,6 @@ describe('Qobuz', function () {
     });
 
     it('should set the application ID from the environment variable', function (done) {
-      const appId = '18ea6204-882f-11e7-bb31-be2e44b06b34';
       process.env.QOBUZ_APP_ID = appId;
 
       const client = new Qobuz();
@@ -34,5 +34,12 @@ describe('Qobuz', function () {
       client.appId.should.be.equal(appId);
       done();
     });
+  });
+
+  it('should initialize the album endpoint', function (done) {
+    const client = new Qobuz(appId);
+
+    client.album.should.not.be.null;
+    done();
   });
 });
