@@ -1,0 +1,26 @@
+{
+  "name": "qobuz",
+  "version": "0.0.0",
+  "description": "Qobuz client library for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvilers/qobuz.git"
+  },
+  "keywords": [
+    "qobuz",
+    "music",
+    "streaming",
+    "client",
+    "library"
+  ],
+  "author": "Fabian Vilers <fabian.vilers@dev-one.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fvilers/qobuz/issues"
+  },
+  "homepage": "https://github.com/fvilers/qobuz#readme"
+}
