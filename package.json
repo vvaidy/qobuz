@@ -4,8 +4,7 @@
   "description": "Qobuz client library for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "watch": "mocha --watch"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
