@@ -98,6 +98,13 @@ describe('Qobuz', function () {
       done();
     });
 
+    it('should initialize the playlist endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.playlist.should.not.be.null;
+      done();
+    });
+
     it('should initialize the user endpoint', function (done) {
       const client = new Qobuz(appId);
 
