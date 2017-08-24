@@ -22,7 +22,7 @@ describe('Qobuz', function () {
         client.playlist.get(null).should.be.rejectedWith('get() requires a playlist ID.').and.notify(done);
       });
 
-      it('should throw an error for invalid type', function (done) {
+      it('should throw an error for invalid extra', function (done) {
         const client = new Qobuz(appId);
 
         client.playlist.get(null, '49806', 'invalid').should.be.rejectedWith('get() extra argument is invalid. Available extras are: tracks.').and.notify(done);
