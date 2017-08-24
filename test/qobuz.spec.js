@@ -55,5 +55,12 @@ describe('Qobuz', function () {
       client.artist.should.not.be.null;
       done();
     });
+
+    it('should initialize the catalog endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.catalog.should.not.be.null;
+      done();
+    });
   });
 });
