@@ -70,6 +70,13 @@ describe('Qobuz', function () {
       done();
     });
 
+    it('should initialize the comment endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.comment.should.not.be.null;
+      done();
+    });
+
     it('should initialize the user endpoint', function (done) {
       const client = new Qobuz(appId);
 
