@@ -84,6 +84,13 @@ describe('Qobuz', function () {
       done();
     });
 
+    it('should initialize the genre endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.genre.should.not.be.null;
+      done();
+    });
+
     it('should initialize the user endpoint', function (done) {
       const client = new Qobuz(appId);
 
