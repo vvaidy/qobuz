@@ -25,35 +25,35 @@ describe('Qobuz', function () {
 
         client.collection.getTracks('MyAuThTokEn', 'invalid').should.be.rejectedWith('getTracks() source argument is invalid. Available sources are: playlists, purchases, favorites.').and.notify(done);
       });
-    });
 
-    it('should return the user\'s tracks in JSON', function (done) {
-      const client = new Qobuz(appId);
-      const expected = require('./get-tracks.json');
-      const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+      it('should return the user\'s tracks in JSON', function (done) {
+        const client = new Qobuz(appId);
+        const expected = require('./get-tracks.json');
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
 
-      client.collection.getTracks('MyAuThTokEn', null, null, null, null, 2).should.eventually.deep.equal(expected).and.notify((err) => {
-        stub.restore();
-        stub.should.have.been.calledWith({
-          uri: 'http://www.qobuz.com/api.json/0.2/collection/getTracks?app_id=100000000&limit=2&user_auth_token=MyAuThTokEn',
-          json: true
+        client.collection.getTracks('MyAuThTokEn', null, null, null, null, 2).should.eventually.deep.equal(expected).and.notify((err) => {
+          stub.restore();
+          stub.should.have.been.calledWith({
+            uri: 'http://www.qobuz.com/api.json/0.2/collection/getTracks?app_id=100000000&limit=2&user_auth_token=MyAuThTokEn',
+            json: true
+          });
+          done(err);
         });
-        done(err);
-      });
-    });
 
-    it('should return the user\'s filtered tracks in JSON', function (done) {
-      const client = new Qobuz(appId);
-      const expected = require('./get-tracks-filtered.json');
-      const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        it('should return the user\'s filtered tracks in JSON', function (done) {
+          const client = new Qobuz(appId);
+          const expected = require('./get-tracks-filtered.json');
+          const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
 
-      client.collection.getTracks('MyAuThTokEn', null, null, null, 'dio', 2).should.eventually.deep.equal(expected).and.notify((err) => {
-        stub.restore();
-        stub.should.have.been.calledWith({
-          uri: 'http://www.qobuz.com/api.json/0.2/collection/getTracks?app_id=100000000&query=dio&limit=2&user_auth_token=MyAuThTokEn',
-          json: true
+          client.collection.getTracks('MyAuThTokEn', null, null, null, 'dio', 2).should.eventually.deep.equal(expected).and.notify((err) => {
+            stub.restore();
+            stub.should.have.been.calledWith({
+              uri: 'http://www.qobuz.com/api.json/0.2/collection/getTracks?app_id=100000000&query=dio&limit=2&user_auth_token=MyAuThTokEn',
+              json: true
+            });
+            done(err);
+          });
         });
-        done(err);
       });
     });
   });
