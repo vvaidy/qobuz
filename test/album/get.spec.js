@@ -21,12 +21,12 @@ describe('Qobuz', function () {
 
         client.album.get().should.be.rejectedWith('get() requires an album ID.').and.notify(done);
       });
-    
+
       it('should return the album in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
-    
+
         client.album.get('0886443927087').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();
           stub.should.have.been.calledWith({
@@ -36,6 +36,6 @@ describe('Qobuz', function () {
           done(err);
         });
       });
-    });  
+    });
   });
 });

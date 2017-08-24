@@ -26,7 +26,7 @@ describe('Qobuz', function () {
         const client = new Qobuz(appId);
         const expected = require('./list-last-articles.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
-    
+
         client.article.listLastArticles(['10'], 2).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();
           stub.should.have.been.calledWith({
@@ -36,6 +36,6 @@ describe('Qobuz', function () {
           done(err);
         });
       });
-    });  
+    });
   });
 });

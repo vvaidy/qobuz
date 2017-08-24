@@ -21,12 +21,12 @@ describe('Qobuz', function () {
 
         client.article.get().should.be.rejectedWith('get() requires an article ID.').and.notify(done);
       });
-    
+
       it('should return the article in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
-    
+
         client.article.get('176977').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();
           stub.should.have.been.calledWith({
@@ -36,6 +36,6 @@ describe('Qobuz', function () {
           done(err);
         });
       });
-    });  
+    });
   });
 });
