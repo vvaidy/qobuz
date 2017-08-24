@@ -69,5 +69,12 @@ describe('Qobuz', function () {
       client.collection.should.not.be.null;
       done();
     });
+
+    it('should initialize the user endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.user.should.not.be.null;
+      done();
+    });
   });
 });
