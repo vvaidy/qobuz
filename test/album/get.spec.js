@@ -22,7 +22,7 @@ describe('Qobuz', function () {
         client.album.get().should.be.rejectedWith('get() requires an album ID.').and.notify(done);
       });
 
-      it('should return the album in JSON', function (done) {
+      it('should return album in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
