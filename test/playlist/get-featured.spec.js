@@ -28,7 +28,7 @@ describe('Qobuz', function () {
         client.playlist.getFeatured('invalid').should.be.rejectedWith('getFeatured() type argument is invalid. Available types are: last-created, editor-picks.').and.notify(done);
       });
 
-      it('should return the playlist in JSON', function (done) {
+      it('should return the featured playlists in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get-featured.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
