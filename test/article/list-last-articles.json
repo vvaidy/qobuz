@@ -1,0 +1,37 @@
+{
+  "articles": {
+    "offset": 0,
+    "limit": 2,
+    "total": 194,
+    "items": [
+      {
+        "id": 177087,
+        "abstract": "Avènement du streaming musical oblige, la chaîne <strong>D17</strong> lancera le 26 mai la première émission télévisée dédiée au top des titres les plus écoutés sur le net. Le Top 50 est mort ! Vive le <strong>Top Steaming</strong> !",
+        "author": "Léo Gaudier",
+        "title": "Le streaming a enfin son top sur D17 !",
+        "category": "Dans les médias",
+        "thumbnail": "http://static.qobuz.com/info/IMG/thumbnails/134x100_arton177087.jpg",
+        "source": "Qobuz",
+        "source_image": "http://static.qobuz.com/img/magazine/logo_qobuz_magazine_small.jpg",
+        "image": "http://static.qobuz.com/info/IMG/thumbnails/300x224_arton177087.jpg",
+        "type": "spip",
+        "url": "/FR-fr/info/Actualites/Dans-les-medias/Le-streaming-a-enfin-son-top-sur177087",
+        "published_at": 1430812094
+      },
+      {
+        "abstract": "Le 26 novembre, <em>France 2</em> diffusera un beau portrait du directeur de l’<strong>Orchestre National de Lille</strong> réalisé par Claude Couderc.",
+        "id": 174255,
+        "author": "Max Dembo",
+        "category": "Dans les médias",
+        "title": "Un documentaire consacré à Jean-Claude Casadesus",
+        "thumbnail": "http://static.qobuz.com/info/IMG/thumbnails/134x100_arton174255.jpg",
+        "source": "Qobuz",
+        "image": "http://static.qobuz.com/info/IMG/thumbnails/300x224_arton174255.jpg",
+        "source_image": "http://static.qobuz.com/img/magazine/logo_qobuz_magazine_small.jpg",
+        "type": "spip",
+        "url": "/FR-fr/info/Actualites/Dans-les-medias/Un-documentaire-consacre-a-Jean174255",
+        "published_at": 1381754965
+      }
+    ]
+  }
+}
