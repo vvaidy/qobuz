@@ -77,6 +77,13 @@ describe('Qobuz', function () {
       done();
     });
 
+    it('should initialize the favorite endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.favorite.should.not.be.null;
+      done();
+    });
+
     it('should initialize the user endpoint', function (done) {
       const client = new Qobuz(appId);
 
