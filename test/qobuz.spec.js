@@ -6,7 +6,7 @@ const Qobuz = require('../lib');
 chai.should();
 
 describe('Qobuz', function () {
-  const appId = '1000000000';
+  const appId = '100000000';
 
   describe('ctor', function () {
     function ctor() {

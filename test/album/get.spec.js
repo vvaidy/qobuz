@@ -12,7 +12,7 @@ chai.use(chaiAsPromised);
 chai.use(sinonChai);
 
 describe('Qobuz', function () {
-  const appId = '1000000000';
+  const appId = '100000000';
 
   describe('Album', function () {
     describe('Get', function () {
@@ -30,7 +30,7 @@ describe('Qobuz', function () {
         client.album.get('0886443927087').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();
           stub.should.have.been.calledWith({
-            uri: 'http://www.qobuz.com/api.json/0.2/album/get?app_id=1000000000&album_id=0886443927087',
+            uri: 'http://www.qobuz.com/api.json/0.2/album/get?app_id=100000000&album_id=0886443927087',
             json: true
           });
           done(err);
