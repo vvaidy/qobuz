@@ -19,7 +19,7 @@ describe('Qobuz', function () {
       it('should throw an error for non array rubric IDs', function (done) {
         const client = new Qobuz(appId);
 
-        client.article.listLastArticles('10').should.be.rejectedWith('listLastArticles() rubricIds must be null or an array.').and.notify(done);
+        client.article.listLastArticles('10').should.be.rejectedWith('listLastArticles() rubric IDs must be null or an array.').and.notify(done);
       });
 
       it('should return the last articles in JSON', function (done) {
