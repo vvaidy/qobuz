@@ -1,0 +1,73 @@
+{
+  "rubrics": {
+    "limit": 8,
+    "offset": 0,
+    "total": 8,
+    "items": [
+      {
+        "id": 7,
+        "title": "Sur Scène",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/Qobuz-info/Sur-scene7",
+        "url": "http://www.qobuz.com/fr-fr/info/-Qobuz-info/Sur-scene7"
+      },
+      {
+        "id": 97,
+        "title": "Actualités",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/Qobuz-info97",
+        "url": "http://www.qobuz.com/fr-fr/info/-Qobuz-info97"
+      },
+      {
+        "id": 189,
+        "title": "Podcasts",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/Podcast189",
+        "url": "http://www.qobuz.com/fr-fr/info/-Podcast189"
+      },
+      {
+        "id": 297,
+        "title": "Hi-Fi Guide",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/MAGAZINE-HIFI297",
+        "url": "http://www.qobuz.com/fr-fr/info/-MAGAZINE-HIFI297"
+      },
+      {
+        "id": 319,
+        "title": "Qobuz à",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/MAGAZINE-ACTUALITES/Qobuz-a319",
+        "url": "http://www.qobuz.com/fr-fr/info/-MAGAZINE-ACTUALITES/Qobuz-a319"
+      },
+      {
+        "id": 324,
+        "title": "Éditoriaux",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/Edito324",
+        "url": "http://www.qobuz.com/fr-fr/info/-Edito324"
+      },
+      {
+        "id": 325,
+        "title": "Qibuz",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/Qibuz325",
+        "url": "http://www.qobuz.com/fr-fr/info/-Qibuz325"
+      },
+      {
+        "id": 333,
+        "title": "Newsletters",
+        "description": "",
+        "updated_at": 1431507245,
+        "rss_feed": "http://www.qobuz.com/rss/magazine/Newsletters333",
+        "url": "http://www.qobuz.com/fr-fr/info/-Newsletters333"
+      }
+    ]
+  }
+}
