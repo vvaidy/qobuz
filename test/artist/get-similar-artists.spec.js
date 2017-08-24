@@ -22,7 +22,7 @@ describe('Qobuz', function () {
         client.artist.getSimilarArtists().should.be.rejectedWith('get() requires an artist ID.').and.notify(done);
       });
 
-      it('should return the artist in JSON', function (done) {
+      it('should return the similar artists in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get-similar-artists.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));

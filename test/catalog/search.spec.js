@@ -26,7 +26,7 @@ describe('Qobuz', function () {
         client.catalog.search('Thriller', 'invalid').should.be.rejectedWith('search() type argument is invalid. Available types are: tracks, albums, artists, playlists.').and.notify(done);
       });
 
-      it('should return the search results in JSON', function (done) {
+      it('should return the search results and their tracks in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./search.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));

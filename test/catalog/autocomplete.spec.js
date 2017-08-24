@@ -20,7 +20,7 @@ describe('Qobuz', function () {
         client.catalog.autocomplete().should.be.rejectedWith('autocomplete() requires a query.').and.notify(done);
       });
 
-      it('should return the search results in JSON', function (done) {
+      it('should return the search suggestions in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./autocomplete.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));

@@ -20,7 +20,7 @@ describe('Qobuz', function () {
         client.catalog.count().should.be.rejectedWith('count() requires a query.').and.notify(done);
       });
 
-      it('should return the search results in JSON', function (done) {
+      it('should return the count results in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./count.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
