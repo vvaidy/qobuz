@@ -17,7 +17,7 @@ describe('Qobuz', function () {
       it('should throw an error for invalid type', function (done) {
         const client = new Qobuz(appId);
 
-        client.album.getFeatured('invalid').should.be.rejectedWith('getFeatured() type argument is invalid. Available types are best-sellers, most-streamed, new-releases, press-awards, editor-picks, most-featured.').and.notify(done);
+        client.album.getFeatured('invalid').should.be.rejectedWith('getFeatured() type argument is invalid. Available types are: best-sellers, most-streamed, new-releases, press-awards, editor-picks, most-featured.').and.notify(done);
       });
     });
 
