@@ -22,7 +22,7 @@ describe('Qobuz', function () {
     
       it('should return the album in JSON', function (done) {
         const client = new Qobuz(appId);
-        const expected = require('./0886443927087.json');
+        const expected = require('./get.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
     
         client.album.get('0886443927087').should.eventually.deep.equal(expected).and.notify((err) => {
