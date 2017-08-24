@@ -10,7 +10,7 @@ chai.should();
 chai.use(chaiAsPromised);
 
 describe('Qobuz', function () {
-  const appId = '18ea6204-882f-11e7-bb31-be2e44b06b34';
+  const appId = '100000000';
 
   describe('Album', function () {
     describe('Search', function () {
@@ -27,6 +27,10 @@ describe('Qobuz', function () {
     
         client.album.search('John Cage', 2).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();
+          stub.should.have.been.calledWith({
+            uri: 'http://www.qobuz.com/api.json/0.2/album/search?app_id=100000000&query=John%20Cage&limit=2',
+            json: true
+          });
           done(err);
         });
       });
