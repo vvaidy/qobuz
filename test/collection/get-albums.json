@@ -1,0 +1,154 @@
+{
+  "offset": 0,
+  "limit": 2,
+  "total": 34,
+  "items": [
+    {
+      "id": "0886445048674",
+      "genre": {
+        "path": [
+          133
+        ],
+        "id": 133,
+        "slug": "rap-hip-hop",
+        "color": "#5eabc1",
+        "name": "Rap"
+      },
+      "tracks_count": 10,
+      "title": "BUSH",
+      "released_at": 1431036000,
+      "duration": 2473,
+      "articles": [
+        {
+          "id": 59045522,
+          "label": "Qualité CD 16 bits",
+          "price": 12.99,
+          "type": "lls",
+          "url": "/order/59045522",
+          "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+          "currency": "EUR"
+        },
+        {
+          "id": 59045523,
+          "label": "Hi-Res",
+          "price": 15.39,
+          "type": "smr",
+          "url": "/order/59045523",
+          "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+          "currency": "EUR"
+        }
+      ],
+      "media_count": 1,
+      "image": {
+        "small": "http://static.qobuz.com/images/covers/74/86/0886445048674_230.jpg",
+        "back": null,
+        "large": "http://static.qobuz.com/images/covers/74/86/0886445048674_600.jpg",
+        "thumbnail": "http://static.qobuz.com/images/covers/74/86/0886445048674_50.jpg"
+      },
+      "label": {
+        "id": 4592,
+        "slug": "columbia",
+        "supplier_id": 23,
+        "albums_count": 13765,
+        "name": "Columbia"
+      },
+      "artist": {
+        "id": 35860,
+        "picture": null,
+        "image": null,
+        "slug": "snoop-dogg",
+        "albums_count": 91,
+        "name": "Snoop Dogg"
+      },
+      "qobuz_id": 24292420,
+      "popularity": 0,
+      "purchasable": true,
+      "streamable": false,
+      "previewable": true,
+      "sampleable": true,
+      "downloadable": true,
+      "displayable": true,
+      "purchasable_at": 1431381600,
+      "streamable_at": 1431381600,
+      "maximum_sampling_rate": 44.1,
+      "maximum_bit_depth": 24,
+      "hires": true,
+      "source": [
+        {
+          "type": "playlist",
+          "id": 327862
+        }
+      ],
+      "created_at": 1431350684
+    },
+    {
+      "id": "5060146095587",
+      "genre": {
+        "path": [
+          64
+        ],
+        "id": 64,
+        "slug": "electro",
+        "color": "#5eabc1",
+        "name": "Electro"
+      },
+      "tracks_count": 10,
+      "title": "Imager",
+      "released_at": 1431295200,
+      "duration": 2441,
+      "articles": [
+        {
+          "id": 59264028,
+          "label": "Qualité CD 16 bits",
+          "price": 9.99,
+          "type": "lls",
+          "url": "/order/59264028",
+          "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+          "currency": "EUR"
+        }
+      ],
+      "media_count": 1,
+      "image": {
+        "small": "http://static.qobuz.com/images/covers/87/55/5060146095587_230.jpg",
+        "back": null,
+        "large": "http://static.qobuz.com/images/covers/87/55/5060146095587_600.jpg",
+        "thumbnail": "http://static.qobuz.com/images/covers/87/55/5060146095587_50.jpg"
+      },
+      "label": {
+        "id": 11129,
+        "slug": "memphis-industries-2",
+        "supplier_id": 30,
+        "albums_count": 31,
+        "name": "Memphis Industries"
+      },
+      "artist": {
+        "id": 208329,
+        "picture": null,
+        "image": null,
+        "slug": "barbarossa",
+        "albums_count": 6,
+        "name": "Barbarossa"
+      },
+      "qobuz_id": 24374424,
+      "popularity": 0,
+      "purchasable": true,
+      "streamable": false,
+      "previewable": true,
+      "sampleable": true,
+      "downloadable": true,
+      "displayable": true,
+      "purchasable_at": 1431295200,
+      "streamable_at": 1431295200,
+      "maximum_sampling_rate": 44.1,
+      "maximum_bit_depth": 16,
+      "hires": false,
+      "source": [
+        {
+          "type": "playlist",
+          "id": 327862
+        }
+      ],
+      "created_at": 1431350684
+    }
+  ]
+}
