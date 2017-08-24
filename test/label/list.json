@@ -1,0 +1,44 @@
+{
+  "labels": {
+    "limit": 5,
+    "offset": 1340,
+    "total": 107655,
+    "items": [
+      {
+        "id": 92420,
+        "name": "Worldwide Records",
+        "slug": "worldwide-records-1",
+        "supplier_id": 17,
+        "albums_count": 166
+      },
+      {
+        "id": 106903,
+        "name": "Marquis Classics",
+        "slug": "marquis-classics-1",
+        "supplier_id": 69,
+        "albums_count": 166
+      },
+      {
+        "id": 43843,
+        "name": "Blues Classics",
+        "slug": "blues-classics",
+        "supplier_id": 3,
+        "albums_count": 165
+      },
+      {
+        "id": 47187,
+        "name": "Grand Hits Records",
+        "slug": "grand-hits-records",
+        "supplier_id": 32,
+        "albums_count": 165
+      },
+      {
+        "id": 64889,
+        "name": "Parlophone",
+        "slug": "parlophone-2",
+        "supplier_id": 1,
+        "albums_count": 165
+      }
+    ]
+  }
+}
