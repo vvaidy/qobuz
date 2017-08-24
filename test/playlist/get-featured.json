@@ -1,0 +1,78 @@
+{
+  "playlists": {
+    "offset": 0,
+    "limit": 2,
+    "total": 111266,
+    "items": [
+      {
+        "tracks_count": 11,
+        "genres": [
+          {
+            "id": 64,
+            "percent": 100,
+            "color": "#5eabc1",
+            "name": "Electro",
+            "path": [
+              64
+            ],
+            "slug": "electro"
+          }
+        ],
+        "is_collaborative": false,
+        "images300": [
+          "http:\/\/static.qobuz.com\/images\/covers\/72\/81\/5060107728172_300.jpg"
+        ],
+        "users_count": 0,
+        "id": 732616,
+        "duration": 2699,
+        "updated_at": 1413905368,
+        "is_public": true,
+        "description": "",
+        "name": "Metronomy - The English Riviera",
+        "owner": {
+          "id": 90566,
+          "name": "niconexion"
+        },
+        "images": [
+          "http:\/\/static.qobuz.com\/images\/covers\/72\/81\/5060107728172_50.jpg"
+        ],
+        "created_at": 1413905368
+      },
+      {
+        "tracks_count": 55,
+        "genres": [
+          {
+            "id": 55,
+            "percent": 100,
+            "color": "#5eabc1",
+            "name": "Op\u00e9ra",
+            "path": [
+              10,
+              55
+            ],
+            "slug": "opera"
+          }
+        ],
+        "is_collaborative": false,
+        "images300": [
+          "http:\/\/static.qobuz.com\/images\/covers\/52\/85\/0002894238552_300.jpg"
+        ],
+        "users_count": 0,
+        "id": 732615,
+        "duration": 7880,
+        "updated_at": 1413905251,
+        "is_public": true,
+        "description": "",
+        "name": "PUCCINI - Turandot - Herbert von Karajan",
+        "owner": {
+          "id": 332911,
+          "name": "wiwal"
+        },
+        "images": [
+          "http:\/\/static.qobuz.com\/images\/covers\/52\/85\/0002894238552_50.jpg"
+        ],
+        "created_at": 1413905251
+      }
+    ]
+  }
+}
