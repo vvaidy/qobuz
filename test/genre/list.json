@@ -1,0 +1,118 @@
+{
+  "genres": {
+    "limit": 25,
+    "offset": 0,
+    "total": 10,
+    "items": [
+      {
+        "id": 65,
+        "color": "#5eabc1",
+        "name": "Ambiant",
+        "path": [
+          65,
+          64
+        ],
+        "slug": "ambiant"
+      },
+      {
+        "id": 129,
+        "color": "#5eabc1",
+        "name": "Dance",
+        "path": [
+          129,
+          64
+        ],
+        "slug": "dance"
+      },
+      {
+        "id": 66,
+        "color": "#5eabc1",
+        "name": "Downtempo",
+        "path": [
+          66,
+          64
+        ],
+        "slug": "downtempo"
+      },
+      {
+        "id": 67,
+        "color": "#5eabc1",
+        "name": "Drum & Bass",
+        "path": [
+          67,
+          64
+        ],
+        "slug": "drum-bass"
+      },
+      {
+        "id": 68,
+        "color": "#5eabc1",
+        "name": "House",
+        "path": [
+          68,
+          64
+        ],
+        "slug": "house"
+      },
+      {
+        "id": 69,
+        "color": "#5eabc1",
+        "name": "Lounge",
+        "path": [
+          69,
+          64
+        ],
+        "slug": "lounge"
+      },
+      {
+        "id": 141,
+        "color": "#5eabc1",
+        "name": "New Age",
+        "path": [
+          141,
+          64
+        ],
+        "slug": "new-age"
+      },
+      {
+        "id": 70,
+        "color": "#5eabc1",
+        "name": "Techno",
+        "path": [
+          70,
+          64
+        ],
+        "slug": "techno"
+      },
+      {
+        "id": 71,
+        "color": "#5eabc1",
+        "name": "Trance",
+        "path": [
+          71,
+          64
+        ],
+        "slug": "trance"
+      },
+      {
+        "id": 72,
+        "color": "#5eabc1",
+        "name": "Trip Hop",
+        "path": [
+          72,
+          64
+        ],
+        "slug": "trip-hop"
+      }
+    ]
+  },
+  "parent": {
+    "id": 64,
+    "color": "#5eabc1",
+    "name": "Electro",
+    "path": [
+      64
+    ],
+    "slug": "electro"
+  }
+}
