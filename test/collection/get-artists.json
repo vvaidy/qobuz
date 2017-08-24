@@ -1,0 +1,35 @@
+{
+  "offset": 0,
+  "limit": 2,
+  "total": 5498,
+  "items": [
+    {
+      "id": 374618,
+      "picture": null,
+      "slug": "best-coast",
+      "albums_count": 12,
+      "name": "Best Coast",
+      "source": [
+        {
+          "type": "playlist",
+          "id": 327862
+        }
+      ],
+      "created_at": 1431350684
+    },
+    {
+      "id": 690619,
+      "picture": null,
+      "slug": "bethany-cosentino",
+      "albums_count": 6,
+      "name": "Bethany Cosentino",
+      "source": [
+        {
+          "type": "playlist",
+          "id": 327862
+        }
+      ],
+      "created_at": 1431350684
+    }
+  ]
+}
