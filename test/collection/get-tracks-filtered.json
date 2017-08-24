@@ -1,0 +1,181 @@
+{
+  "offset": 0,
+  "limit": 2,
+  "total": 6,
+  "items": [
+    {
+      "id": 16864093,
+      "composer": {
+        "id": 712,
+        "name": "Giuseppe Verdi"
+      },
+      "title": "Giovanna d'Arco / Act 2 : \"Te, Dio, Iodiam\"",
+      "duration": 76,
+      "performers": "Philharmonia Chor Wien, Associated Performer, Chorus, Main Artist\r - Münchner Rundfunkorchester, Main Artist, Orchestra, Orchestra\r - Paolo Carignani, Main Artist, Conductor, Conductor\r - Temistocle Solera, Author\r - Giuseppe Verdi, Composer",
+      "album": {
+        "tracks_count": 38,
+        "genre": {
+          "path": [
+            10
+          ],
+          "id": 10,
+          "slug": "classique",
+          "color": "#5eabc1",
+          "name": "Classique"
+        },
+        "id": "0002894792718",
+        "title": "Verdi: Giovanna d'Arco",
+        "released_at": 1401660000,
+        "duration": 6508,
+        "media_count": 2,
+        "image": {
+          "small": "http://static.qobuz.com/images/covers/18/27/0002894792718_230.jpg",
+          "large": "http://static.qobuz.com/images/covers/18/27/0002894792718_600.jpg",
+          "thumbnail": "http://static.qobuz.com/images/covers/18/27/0002894792718_50.jpg"
+        },
+        "label": {
+          "id": 73642,
+          "slug": "deutsche-grammophon-gmbh-berlin-1",
+          "supplier_id": 1,
+          "albums_count": 87,
+          "name": "Deutsche Grammophon GmbH, Berlin"
+        },
+        "artist": {
+          "id": 37401,
+          "picture": null,
+          "image": null,
+          "slug": "anna-netrebko",
+          "albums_count": 66,
+          "name": "Anna Netrebko"
+        },
+        "qobuz_id": 16864042,
+        "popularity": 0.47028375066364,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1425164400,
+        "streamable_at": 1425164400,
+        "maximum_sampling_rate": 44.1,
+        "maximum_bit_depth": 16,
+        "hires": false
+      },
+      "performer": {
+        "id": 900409,
+        "name": "Philharmonia Chor Wien"
+      },
+      "media_number": 2,
+      "copyright": "(P) 2014 Deutsche Grammophon GmbH, Berlin",
+      "track_number": 4,
+      "version": null,
+      "purchasable": true,
+      "streamable": true,
+      "previewable": true,
+      "sampleable": true,
+      "downloadable": true,
+      "displayable": true,
+      "purchasable_at": 1425164400,
+      "streamable_at": 1425164400,
+      "maximum_sampling_rate": 44.1,
+      "maximum_bit_depth": 16,
+      "hires": false,
+      "source": [
+        {
+          "type": "purchase",
+          "id": 14742076
+        },
+        {
+          "type": "purchase",
+          "id": 14742947
+        }
+      ],
+      "created_at": 1401704460
+    },
+    {
+      "id": 4412371,
+      "composer": {
+        "id": 26875,
+        "name": "Compositeurs Divers"
+      },
+      "title": "Vorrei spiegarvi, oh Dio, K.418 : Mozart: Vorrei spiegarvi, oh Dio, K.418",
+      "duration": 423,
+      "performers": "Dame Joan Sutherland, Soprano\r - The National Philharmonic Orchestra, Orchestra\r - Richard Bonynge, Conductor",
+      "album": {
+        "tracks_count": 271,
+        "genre": {
+          "path": [
+            10,
+            44,
+            49
+          ],
+          "id": 49,
+          "slug": "recitals-vocaux",
+          "color": "#5eabc1",
+          "name": "Récitals vocaux"
+        },
+        "id": "0002894783243",
+        "title": "Joan Sutherland - Complete Decca Studio Recitals",
+        "released_at": 1293836400,
+        "duration": 71768,
+        "media_count": 23,
+        "image": {
+          "small": "http://static.qobuz.com/images/covers/43/32/0002894783243_230.jpg",
+          "large": "http://static.qobuz.com/images/covers/43/32/0002894783243_600.jpg",
+          "thumbnail": "http://static.qobuz.com/images/covers/43/32/0002894783243_50.jpg"
+        },
+        "label": {
+          "id": 1125,
+          "slug": "decca",
+          "supplier_id": 1,
+          "albums_count": 4147,
+          "name": "Decca"
+        },
+        "artist": {
+          "id": 39965,
+          "picture": null,
+          "image": null,
+          "slug": "dame-joan-sutherland",
+          "albums_count": 91,
+          "name": "Dame Joan Sutherland"
+        },
+        "qobuz_id": 4411987,
+        "popularity": 0.77708474117195,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1431468000,
+        "streamable_at": 1431468000,
+        "maximum_sampling_rate": 44.1,
+        "maximum_bit_depth": 16,
+        "hires": false
+      },
+      "media_number": 19,
+      "copyright": "(P) 1979 Decca Music Group Limited",
+      "track_number": 3,
+      "version": null,
+      "purchasable": true,
+      "streamable": true,
+      "previewable": true,
+      "sampleable": true,
+      "downloadable": true,
+      "displayable": true,
+      "purchasable_at": 1431468000,
+      "streamable_at": 1431468000,
+      "maximum_sampling_rate": 44.1,
+      "maximum_bit_depth": 16,
+      "hires": false,
+      "source": [
+        {
+          "type": "purchase",
+          "id": 13788251
+        }
+      ],
+      "created_at": 1373623396
+    }
+  ]
+}

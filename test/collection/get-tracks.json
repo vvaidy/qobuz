@@ -1,0 +1,176 @@
+{
+  "offset": 0,
+  "limit": 2,
+  "total": 20577,
+  "items": [
+    {
+      "id": 24307440,
+      "composer": {
+        "id": 7593,
+        "name": "Ludovico Einaudi"
+      },
+      "title": "Taranta",
+      "duration": 260,
+      "performers": "Ludovico Einaudi, Composer, Performer\r - Mauro Durante, Writer",
+      "album": {
+        "tracks_count": 12,
+        "genre": {
+          "path": [
+            94
+          ],
+          "id": 94,
+          "slug": "musiques-du-monde",
+          "color": "#5eabc1",
+          "name": "Musiques du monde"
+        },
+        "id": "8030482001570",
+        "title": "Taranta Project",
+        "released_at": 1430776800,
+        "duration": 3825,
+        "media_count": 1,
+        "image": {
+          "small": "http://static.qobuz.com/images/covers/70/15/8030482001570_230.jpg",
+          "large": "http://static.qobuz.com/images/covers/70/15/8030482001570_600.jpg",
+          "thumbnail": "http://static.qobuz.com/images/covers/70/15/8030482001570_50.jpg"
+        },
+        "label": {
+          "id": 50225,
+          "slug": "ponderosa-music-art",
+          "supplier_id": 3,
+          "albums_count": 50,
+          "name": "Ponderosa Music & Art"
+        },
+        "artist": {
+          "id": 7593,
+          "picture": null,
+          "image": null,
+          "slug": "ludovico-einaudi",
+          "albums_count": 42,
+          "name": "Ludovico Einaudi"
+        },
+        "qobuz_id": 24307438,
+        "popularity": 0.047548017021058,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1431295200,
+        "streamable_at": 1431295200,
+        "maximum_sampling_rate": 44.1,
+        "maximum_bit_depth": 16,
+        "hires": false
+      },
+      "performer": {
+        "id": 7593,
+        "name": "Ludovico Einaudi"
+      },
+      "media_number": 1,
+      "copyright": "2015 Ponderosa Music & Art Srl",
+      "track_number": 2,
+      "version": null,
+      "purchasable": true,
+      "streamable": true,
+      "previewable": true,
+      "sampleable": true,
+      "downloadable": true,
+      "displayable": true,
+      "purchasable_at": 1431295200,
+      "streamable_at": 1431295200,
+      "maximum_sampling_rate": 44.1,
+      "maximum_bit_depth": 16,
+      "hires": false,
+      "source": [
+        {
+          "type": "playlist",
+          "id": 327862
+        }
+      ],
+      "created_at": 1431350684
+    },
+    {
+      "id": 23361745,
+      "performers": "Eric Clapton, Guitar, Lead Vocals, Main Artist, Producer\r - Debra Parsons, Background Vocals\r - Derek Trucks, Guitar\r - Doyle Bramhall II, Guitar, Producer\r - Gavin Lurssen, Masterer\r - Jim Keltner, Drums, Percussion\r - Justin Stanley, Mixer, Recording Engineer\r - Lynn Mabry, Background Vocals\r - Nikka Costa, Background Vocals\r - Walt Richmond, Piano\r - Willie Weeks, Bass",
+      "duration": 316,
+      "title": "Run Back To Your Side",
+      "album": {
+        "id": "0093624927884",
+        "genre": {
+          "id": 119,
+          "color": "#5eabc1",
+          "name": "Rock",
+          "path": [
+            112,
+            119
+          ],
+          "slug": "rock"
+        },
+        "tracks_count": 51,
+        "duration": 13696,
+        "released_at": 1430172000,
+        "title": "Forever Man",
+        "image": {
+          "thumbnail": "http://static.qobuz.com/images/covers/84/78/0093624927884_50.jpg",
+          "small": "http://static.qobuz.com/images/covers/84/78/0093624927884_230.jpg",
+          "large": "http://static.qobuz.com/images/covers/84/78/0093624927884_600.jpg"
+        },
+        "media_count": 1,
+        "label": {
+          "id": 7398,
+          "supplier_id": 5,
+          "albums_count": 360,
+          "name": "Reprise",
+          "slug": "reprise"
+        },
+        "artist": {
+          "picture": null,
+          "id": 5936,
+          "albums_count": 106,
+          "name": "Eric Clapton",
+          "image": null,
+          "slug": "eric-clapton"
+        },
+        "qobuz_id": 23361740,
+        "popularity": 0.4663389825571,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1431295200,
+        "streamable_at": 1431295200,
+        "maximum_sampling_rate": 44.1,
+        "maximum_bit_depth": 16,
+        "hires": false
+      },
+      "performer": {
+        "id": 5936,
+        "name": "Eric Clapton"
+      },
+      "copyright": "This Compilation C2015 Reprise Records This Compilation P2015 Reprise Records",
+      "media_number": 1,
+      "track_number": 3,
+      "version": null,
+      "purchasable": true,
+      "streamable": true,
+      "previewable": true,
+      "sampleable": true,
+      "downloadable": true,
+      "displayable": true,
+      "purchasable_at": 1431295200,
+      "streamable_at": 1431295200,
+      "maximum_sampling_rate": 44.1,
+      "maximum_bit_depth": 16,
+      "hires": false,
+      "source": [
+        {
+          "type": "playlist",
+          "id": 327862
+        }
+      ],
+      "created_at": 1431350684
+    }
+  ]
+}
