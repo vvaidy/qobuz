@@ -1,0 +1,12 @@
+{
+  "query": "Radiohead",
+  "tracks": {
+    "total": 995
+  },
+  "albums": {
+    "total": 724
+  },
+  "artists": {
+    "total": 162
+  }
+}
