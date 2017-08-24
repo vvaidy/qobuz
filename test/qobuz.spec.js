@@ -91,6 +91,13 @@ describe('Qobuz', function () {
       done();
     });
 
+    it('should initialize the label endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.label.should.not.be.null;
+      done();
+    });
+
     it('should initialize the user endpoint', function (done) {
       const client = new Qobuz(appId);
 
