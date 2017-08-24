@@ -19,7 +19,7 @@ describe('Qobuz', function () {
       it('should throw an error for undefined album ID', function (done) {
         const client = new Qobuz(appId);
 
-        client.album.get().should.be.rejectedWith('getAlbum() requires an album ID.').and.notify(done);
+        client.album.get().should.be.rejectedWith('get() requires an album ID.').and.notify(done);
       });
     
       it('should return the album in JSON', function (done) {
