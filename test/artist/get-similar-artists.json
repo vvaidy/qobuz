@@ -1,0 +1,51 @@
+{
+  "artists": {
+    "limit": 3,
+    "offset": 0,
+    "total": 3,
+    "items": [
+      {
+        "id": 655417,
+        "name": "Tame Impala",
+        "slug": "tame-impala",
+        "albums_count": 32,
+        "picture": "http://userserve-ak.last.fm/serve/126s/92876919.jpg",
+        "image": {
+          "small": "http://userserve-ak.last.fm/serve/34/92876919.jpg",
+          "medium": "http://userserve-ak.last.fm/serve/64/92876919.jpg",
+          "large": "http://userserve-ak.last.fm/serve/126/92876919.jpg",
+          "extralarge": "http://userserve-ak.last.fm/serve/252/92876919.jpg",
+          "mega": "http://userserve-ak.last.fm/serve/500/92876919/Tame+Impala.jpg"
+        }
+      },
+      {
+        "id": 551598,
+        "name": "Foster The People",
+        "slug": "foster-the-people",
+        "albums_count": 16,
+        "picture": "http://userserve-ak.last.fm/serve/126s/73148396.png",
+        "image": {
+          "small": "http://userserve-ak.last.fm/serve/34/73148396.png",
+          "medium": "http://userserve-ak.last.fm/serve/64/73148396.png",
+          "large": "http://userserve-ak.last.fm/serve/126/73148396.png",
+          "extralarge": "http://userserve-ak.last.fm/serve/252/73148396.png",
+          "mega": "http://userserve-ak.last.fm/serve/_/73148396/Foster+the+People+PNG.png"
+        }
+      },
+      {
+        "id": 747539,
+        "name": "Pond",
+        "slug": "pond",
+        "albums_count": 16,
+        "picture": "http://userserve-ak.last.fm/serve/126s/76750006.png",
+        "image": {
+          "small": "http://userserve-ak.last.fm/serve/34/76750006.png",
+          "medium": "http://userserve-ak.last.fm/serve/64/76750006.png",
+          "large": "http://userserve-ak.last.fm/serve/126/76750006.png",
+          "extralarge": "http://userserve-ak.last.fm/serve/252/76750006.png",
+          "mega": "http://userserve-ak.last.fm/serve/_/76750006/Pond+ponf.png"
+        }
+      }
+    ]
+  }
+}
