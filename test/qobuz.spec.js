@@ -41,5 +41,12 @@ describe('Qobuz', function () {
       client.album.should.not.be.null;
       done();
     });
+
+    it('should initialize the artist endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.artist.should.not.be.null;
+      done();
+    });
   });
 });
