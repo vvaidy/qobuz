@@ -1,0 +1,69 @@
+{
+  "id": "s173711",
+  "artists": [
+    {
+      "picture": null,
+      "id": 36819,
+      "albums_count": 52,
+      "name": "Daft Punk",
+      "image": null,
+      "slug": "daft-punk"
+    }
+  ],
+  "albums": [
+    {
+      "tracks_count": 13,
+      "genre": {
+        "id": 64,
+        "color": "#5eabc1",
+        "name": "Electro",
+        "path": [
+          64
+        ],
+        "slug": "electro"
+      },
+      "media_count": 1,
+      "image": {
+        "thumbnail": "http://static.qobuz.com/images/covers/87/70/0886443927087_50.jpg",
+        "small": "http://static.qobuz.com/images/covers/87/70/0886443927087_230.jpg",
+        "large": "http://static.qobuz.com/images/covers/87/70/0886443927087_600.jpg"
+      },
+      "label": {
+        "id": 4592,
+        "supplier_id": 23,
+        "albums_count": 13765,
+        "name": "Columbia",
+        "slug": "columbia"
+      },
+      "product_sales_factors_weekly": 0,
+      "id": "0886443927087",
+      "title": "Random Access Memories (Édition Studio Masters)",
+      "released_at": 1368741600,
+      "duration": 4470,
+      "slug": "random-access-memories-edition-studio-masters-daft-punk",
+      "artist": {
+        "picture": null,
+        "id": 36819,
+        "albums_count": 52,
+        "name": "Daft Punk",
+        "image": null,
+        "slug": "daft-punk"
+      },
+      "product_sales_factors_monthly": 0,
+      "qobuz_id": 9140023,
+      "product_sales_factors_yearly": 0,
+      "popularity": 0.0088818315457934,
+      "purchasable": true,
+      "streamable": false,
+      "previewable": true,
+      "sampleable": true,
+      "downloadable": true,
+      "displayable": true,
+      "purchasable_at": 1429912800,
+      "streamable_at": 1429221600,
+      "maximum_sampling_rate": 88.2,
+      "maximum_bit_depth": 24,
+      "hires": true
+    }
+  ]
+}
