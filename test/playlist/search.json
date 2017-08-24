@@ -1,0 +1,52 @@
+{
+  "query": "John Cage",
+  "artists": {
+    "limit": 2,
+    "offset": 0,
+    "total": 5366,
+    "items": []
+  },
+  "playlists": {
+    "limit": 2,
+    "offset": 0,
+    "total": 50,
+    "items": [
+      {
+        "tracks_count": 0,
+        "genres": [],
+        "is_collaborative": false,
+        "users_count": 1,
+        "id": 167582,
+        "duration": 0,
+        "updated_at": 1365525243,
+        "is_public": true,
+        "description": "",
+        "name": "john cage",
+        "owner": {
+          "id": 12345,
+          "name": "corinlh"
+        },
+        "images": [],
+        "created_at": 1346868143
+      },
+      {
+        "tracks_count": 0,
+        "genres": [],
+        "is_collaborative": false,
+        "users_count": 1,
+        "id": 172964,
+        "duration": 0,
+        "updated_at": 1365525311,
+        "is_public": true,
+        "description": "",
+        "name": "john cage anniversary",
+        "owner": {
+          "id": 123456,
+          "name": "guelma"
+        },
+        "images": [],
+        "created_at": 1348046716
+      }
+    ]
+  }
+}
