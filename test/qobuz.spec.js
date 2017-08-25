@@ -105,6 +105,13 @@ describe('Qobuz', function () {
       done();
     });
 
+    it('should initialize the purchase endpoint', function (done) {
+      const client = new Qobuz(appId);
+
+      client.purchase.should.not.be.null;
+      done();
+    });
+
     it('should initialize the user endpoint', function (done) {
       const client = new Qobuz(appId);
 
