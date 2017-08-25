@@ -1,0 +1,30 @@
+{
+  "articles": [
+    {
+      "id": 57177168,
+      "url": "http://www.qobuz.com/order/57177168",
+      "price": 16.79,
+      "currency": "EUR",
+      "type": "lls",
+      "label": "Qualité CD 16 bits",
+      "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)"
+    },
+    {
+      "id": 57177169,
+      "url": "http://www.qobuz.com/order/57177169",
+      "price": 20.99,
+      "currency": "EUR",
+      "type": "smr",
+      "label": "Hi-Res",
+      "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)"
+    }
+  ],
+  "artist": {
+    "name": "Parov Stelar"
+  },
+  "album": {
+    "title": "The Demon Diaries",
+    "url": "/fr-fr/album/the-demon-diaries-parov-stelar/0808699111126",
+    "articles": []
+  }
+}
