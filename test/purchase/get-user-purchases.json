@@ -1,0 +1,342 @@
+{
+  "albums": {
+    "offset": 0,
+    "limit": 2,
+    "total": 727,
+    "items": [
+      {
+        "tracks_count": 24,
+        "genre": {
+          "id": 64,
+          "color": "#5eabc1",
+          "name": "Electro",
+          "path": [
+            64
+          ],
+          "slug": "electro"
+        },
+        "articles": [
+          {
+            "id": 57177168,
+            "price": 16.79,
+            "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+            "label": "Qualité CD 16 bits",
+            "type": "lls",
+            "url": "/order/57177168",
+            "currency": "EUR"
+          },
+          {
+            "id": 57177169,
+            "price": 20.99,
+            "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+            "label": "Hi-Res",
+            "type": "smr",
+            "url": "/order/57177169",
+            "currency": "EUR"
+          }
+        ],
+        "image": {
+          "thumbnail": "http://static.qobuz.com/images/covers/26/11/0808699111126_50.jpg",
+          "back": null,
+          "small": "http://static.qobuz.com/images/covers/26/11/0808699111126_230.jpg",
+          "large": "http://static.qobuz.com/images/covers/26/11/0808699111126_600.jpg"
+        },
+        "media_count": 2,
+        "label": {
+          "id": 107193,
+          "supplier_id": 3,
+          "albums_count": 3,
+          "name": "Etage Noir Recordings",
+          "slug": "etage-noir-recordings"
+        },
+        "id": "0808699111126",
+        "duration": 5607,
+        "released_at": 1430431200,
+        "title": "The Demon Diaries",
+        "artist": {
+          "picture": null,
+          "id": 31317,
+          "albums_count": 16,
+          "name": "Parov Stelar",
+          "image": null,
+          "slug": "parov-stelar"
+        },
+        "qobuz_id": 23585993,
+        "popularity": 0,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1431295200,
+        "streamable_at": 1431295200,
+        "maximum_sampling_rate": 44.1,
+        "maximum_bit_depth": 24,
+        "hires": true,
+        "purchased_at": 1431358395,
+        "order_id": 16554108,
+        "order_line_id": 1,
+        "hires_purchased": true
+      },
+      {
+        "tracks_count": 77,
+        "genre": {
+          "id": 10,
+          "color": "#5eabc1",
+          "name": "Classique",
+          "path": [
+            10
+          ],
+          "slug": "classique"
+        },
+        "articles": [
+          {
+            "id": 56612724,
+            "price": 18.99,
+            "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+            "label": "Qualité CD 16 bits",
+            "type": "lls",
+            "url": "/order/56612724",
+            "currency": "EUR"
+          },
+          {
+            "id": 56612725,
+            "price": 26.59,
+            "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+            "label": "Hi-Res",
+            "type": "smr",
+            "url": "/order/56612725",
+            "currency": "EUR"
+          }
+        ],
+        "image": {
+          "thumbnail": "http://static.qobuz.com/images/covers/28/12/3149020221228_50.jpg",
+          "back": null,
+          "small": "http://static.qobuz.com/images/covers/28/12/3149020221228_230.jpg",
+          "large": "http://static.qobuz.com/images/covers/28/12/3149020221228_600.jpg"
+        },
+        "media_count": 2,
+        "label": {
+          "id": 19089,
+          "supplier_id": 22,
+          "albums_count": 1250,
+          "name": "harmonia mundi",
+          "slug": "harmonia-mundi"
+        },
+        "id": "3149020221228",
+        "duration": 8333,
+        "released_at": 1430085600,
+        "title": "Rameau: Castor et Pollux",
+        "artist": {
+          "picture": null,
+          "id": 563463,
+          "albums_count": 7,
+          "name": "Ensemble Pygmalion",
+          "image": null,
+          "slug": "ensemble-pygmalion"
+        },
+        "qobuz_id": 23381816,
+        "popularity": 0,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1431295200,
+        "streamable_at": 1431295200,
+        "maximum_sampling_rate": 48,
+        "maximum_bit_depth": 24,
+        "hires": true,
+        "purchased_at": 1430401023,
+        "order_id": 16553512,
+        "order_line_id": 1,
+        "hires_purchased": false
+      }
+    ]
+  },
+  "tracks": {
+    "offset": 0,
+    "limit": 2,
+    "total": 66,
+    "items": [
+      {
+        "id": 22799167,
+        "composer": {
+          "id": 1258961,
+          "name": "Anna Chedid"
+        },
+        "performers": "Nach, Main Artist - Anna Chedid, Author, Composer - Anna Chedid Publishing - Warner Chapell Music France",
+        "duration": 209,
+        "title": "Ame mélodique",
+        "album": {
+          "id": "0060254713804",
+          "genre": {
+            "id": 6,
+            "color": "#5eabc1",
+            "name": "Chanson française",
+            "path": [
+              94,
+              151,
+              6
+            ],
+            "slug": "chanson-francaise"
+          },
+          "tracks_count": 12,
+          "duration": 2357,
+          "released_at": 1428271200,
+          "title": "Nach",
+          "image": {
+            "thumbnail": "http://static.qobuz.com/images/covers/04/38/0060254713804_50.jpg",
+            "small": "http://static.qobuz.com/images/covers/04/38/0060254713804_230.jpg",
+            "large": "http://static.qobuz.com/images/covers/04/38/0060254713804_600.jpg"
+          },
+          "media_count": 1,
+          "label": {
+            "id": 18059,
+            "supplier_id": 1,
+            "albums_count": 8958,
+            "name": "Universal Music GmbH",
+            "slug": "universal-music-gmbh"
+          },
+          "artist": {
+            "picture": null,
+            "id": 2164974,
+            "albums_count": 2,
+            "name": "Nach",
+            "image": null,
+            "slug": "nach-1"
+          },
+          "qobuz_id": 22799164,
+          "popularity": 0.73072065447025,
+          "purchasable": true,
+          "streamable": true,
+          "previewable": true,
+          "sampleable": true,
+          "downloadable": true,
+          "displayable": true,
+          "purchasable_at": 1430344800,
+          "streamable_at": 1430344800,
+          "maximum_sampling_rate": 44.1,
+          "maximum_bit_depth": 24,
+          "hires": true
+        },
+        "performer": {
+          "id": 2164974,
+          "name": "Nach"
+        },
+        "copyright": null,
+        "media_number": 1,
+        "track_number": 2,
+        "version": null,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1430344800,
+        "streamable_at": 1430344800,
+        "maximum_sampling_rate": 44.1,
+        "maximum_bit_depth": 24,
+        "hires": true,
+        "purchased_at": 1428402301,
+        "order_id": 16425010,
+        "order_line_id": 1,
+        "type": "ps",
+        "hires_purchased": true
+      },
+      {
+        "id": 22799170,
+        "composer": {
+          "id": 569243,
+          "name": "Joseph Chedid"
+        },
+        "title": "Je suis moi",
+        "duration": 189,
+        "performers": "Nach, Main Artist - Anna Chedid, Author, Composer - Joseph Chedid, Composer - Anna Chedid Publishing - Warner Chapell Music France",
+        "album": {
+          "tracks_count": 12,
+          "genre": {
+            "path": [
+              94,
+              151,
+              6
+            ],
+            "id": 6,
+            "slug": "chanson-francaise",
+            "color": "#5eabc1",
+            "name": "Chanson française"
+          },
+          "id": "0060254713804",
+          "title": "Nach",
+          "released_at": 1428271200,
+          "duration": 2357,
+          "media_count": 1,
+          "image": {
+            "small": "http://static.qobuz.com/images/covers/04/38/0060254713804_230.jpg",
+            "large": "http://static.qobuz.com/images/covers/04/38/0060254713804_600.jpg",
+            "thumbnail": "http://static.qobuz.com/images/covers/04/38/0060254713804_50.jpg"
+          },
+          "label": {
+            "id": 18059,
+            "slug": "universal-music-gmbh",
+            "supplier_id": 1,
+            "albums_count": 8958,
+            "name": "Universal Music GmbH"
+          },
+          "artist": {
+            "id": 2164974,
+            "picture": null,
+            "image": null,
+            "slug": "nach-1",
+            "albums_count": 2,
+            "name": "Nach"
+          },
+          "qobuz_id": 22799164,
+          "popularity": 0.73072065447025,
+          "purchasable": true,
+          "streamable": true,
+          "previewable": true,
+          "sampleable": true,
+          "downloadable": true,
+          "displayable": true,
+          "purchasable_at": 1430344800,
+          "streamable_at": 1430344800,
+          "maximum_sampling_rate": 44.1,
+          "maximum_bit_depth": 24,
+          "hires": true
+        },
+        "performer": {
+          "id": 2164974,
+          "name": "Nach"
+        },
+        "media_number": 1,
+        "copyright": null,
+        "track_number": 4,
+        "version": null,
+        "purchasable": true,
+        "streamable": true,
+        "previewable": true,
+        "sampleable": true,
+        "downloadable": true,
+        "displayable": true,
+        "purchasable_at": 1430344800,
+        "streamable_at": 1430344800,
+        "maximum_sampling_rate": 44.1,
+        "maximum_bit_depth": 24,
+        "hires": true,
+        "purchased_at": 1428402301,
+        "order_id": 16425010,
+        "order_line_id": 2,
+        "type": "ps",
+        "hires_purchased": true
+      }
+    ]
+  },
+  "user": {
+    "id": 178905,
+    "login": "myLogin"
+  }
+}
