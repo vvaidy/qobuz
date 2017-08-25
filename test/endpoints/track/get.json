@@ -1,0 +1,127 @@
+{
+  "work": null,
+  "id": 24231261,
+  "composer": {
+    "id": 208868,
+    "name": "Ciara Harris"
+  },
+  "performers": "Ciara, Associated Performer, Main Artist\r - Harmony \"H-Money\" Samuels, Composer, Lyricist, Producer\r - Chris \"TEK\" O'Ryan, Engineer, Producer, Recording Engineer\r - Ciara Harris, Composer, Lyricist\r - Gamal Lewis, Composer, Lyricist\r - Jose Cardoza, Engineer\r - Mike Geluz, Assistant Engineer\r - Chloe Angelides, Composer, Lyricist\r - Jaycen Joshua, Mixing Engineer\r - Ryan Kaul, Assistant Engineer\r - Maddox Chhim, Assistant Engineer\r - Chris Gehringer, Mastering Engineer",
+  "duration": 328,
+  "title": "Jackie (B.M.F.)",
+  "articles": [],
+  "album": {
+    "genre": {
+      "id": 117,
+      "color": "#5eabc1",
+      "name": "Pop",
+      "path": [
+        112,
+        117
+      ],
+      "slug": "pop"
+    },
+    "tracks_count": 16,
+    "product_sales_factors_weekly": 1,
+    "id": "0886445054996",
+    "composer": {
+      "picture": null,
+      "id": 26875,
+      "albums_count": 536585,
+      "name": "Compositeurs Divers",
+      "image": null,
+      "slug": "compositeurs-divers"
+    },
+    "title": "Jackie (Deluxe)",
+    "description": "",
+    "catchline": "",
+    "created_at": 1430474903,
+    "genres_list": [
+      "Pop/Rock",
+      "Pop/Rock→Pop"
+    ],
+    "artist": {
+      "picture": null,
+      "id": 53658,
+      "albums_count": 62,
+      "name": "Ciara",
+      "image": null,
+      "slug": "ciara"
+    },
+    "product_sales_factors_monthly": 2,
+    "popularity": 0,
+    "articles": [
+      {
+        "id": 58884457,
+        "price": 12.99,
+        "description": "Lossless 16 bits 44,1 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+        "label": "Qualité CD 16 bits",
+        "type": "lls",
+        "url": "/order/58884457",
+        "currency": "EUR"
+      },
+      {
+        "id": 58884459,
+        "price": 15.39,
+        "description": "Jusqu'à 24 bits 96 kHz (FLAC, ALAC, WMA, AIFF, WAV)",
+        "label": "Hi-Res",
+        "type": "smr",
+        "url": "/order/58884459",
+        "currency": "EUR"
+      }
+    ],
+    "image": {
+      "thumbnail": "http://static.qobuz.com/images/covers/96/49/0886445054996_50.jpg",
+      "back": null,
+      "small": "http://static.qobuz.com/images/covers/96/49/0886445054996_230.jpg",
+      "large": "http://static.qobuz.com/images/covers/96/49/0886445054996_600.jpg"
+    },
+    "media_count": 1,
+    "label": {
+      "id": 4586,
+      "supplier_id": 23,
+      "albums_count": 4271,
+      "name": "Epic",
+      "slug": "epic"
+    },
+    "copyright": "(P) 2015 Epic Records, a division of Sony Music Entertainment",
+    "product_url": "/fr-fr/album/jackie-deluxe-ciara/0886445054996",
+    "url": "http://www.qobuz.com/fr-fr/album/jackie-deluxe-ciara/0886445054996",
+    "duration": 3764,
+    "released_at": 1430431200,
+    "maximum_technical_specifications": "24 bits / 44.1 kHz - Stereo",
+    "slug": "jackie-deluxe-ciara",
+    "relative_url": "/album/jackie-deluxe-ciara/0886445054996",
+    "qobuz_id": 24231258,
+    "product_sales_factors_yearly": 2,
+    "purchasable": true,
+    "streamable": false,
+    "previewable": true,
+    "sampleable": true,
+    "downloadable": true,
+    "displayable": true,
+    "purchasable_at": 1430690400,
+    "streamable_at": 1430690400,
+    "maximum_sampling_rate": 44.1,
+    "maximum_bit_depth": 24,
+    "hires": true
+  },
+  "performer": {
+    "id": 53658,
+    "name": "Ciara"
+  },
+  "copyright": null,
+  "media_number": 1,
+  "track_number": 1,
+  "version": null,
+  "purchasable": true,
+  "streamable": false,
+  "previewable": true,
+  "sampleable": true,
+  "downloadable": true,
+  "displayable": true,
+  "purchasable_at": 1430690400,
+  "streamable_at": 1430690400,
+  "maximum_sampling_rate": 44.1,
+  "maximum_bit_depth": 24,
+  "hires": true
+}
