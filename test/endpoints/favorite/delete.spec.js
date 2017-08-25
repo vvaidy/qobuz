@@ -46,7 +46,7 @@ describe('Qobuz', function () {
 
       it('should return the user\'s albums in JSON', function (done) {
         const client = new Qobuz(appId);
-        const expected = require('./success.json');
+        const expected = require('../success.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
 
         client.favorite.delete('MyAuThTokEn', null, ['0060253723059']).should.eventually.deep.equal(expected).and.notify((err) => {

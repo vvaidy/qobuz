@@ -30,7 +30,7 @@ describe('Qobuz', function () {
 
       it('should return success in JSON', function (done) {
         const client = new Qobuz(appId);
-        const expected = require('./success.json');
+        const expected = require('../success.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
 
         client.playlist.subscribe('MyUsErToKeN', '213676').should.eventually.deep.equal(expected).and.notify((err) => {
