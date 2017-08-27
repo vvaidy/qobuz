@@ -39,14 +39,14 @@ describe('Qobuz', function () {
         const client = new Qobuz(appId, appSecret);
         const expected = require('./get-file-url.json');
         const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
-
-        const clock = sinon.useFakeTimers(1431447073000);
+        const requestTs = 1431447073;
+        const clock = sinon.useFakeTimers(requestTs * 1000);
 
         client.track.getFileUrl(null, '23601296', '6', 'stream').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();
           clock.restore();
           stub.should.have.been.calledWith({
-            uri: 'http://www.qobuz.com/api.json/0.2/track/getFileUrl?app_id=100000000&request_ts=1431447073&request_sig=bb6150f8b942f0d491a6fa5a82be7c14&track_id=23601296&format_id=6&intent=stream',
+            uri: `http://www.qobuz.com/api.json/0.2/track/getFileUrl?app_id=100000000&request_ts=${requestTs}&request_sig=ed0c7d7e74ab9abfac76f02e722ed59e&track_id=23601296&format_id=6&intent=stream`,
             json: true
           });
           done(err);
