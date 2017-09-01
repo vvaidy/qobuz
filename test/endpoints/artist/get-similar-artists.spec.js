@@ -25,7 +25,7 @@ describe('Qobuz', function () {
       it('should return the similar artists in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get-similar-artists.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.artist.getSimilarArtists('118680', 3).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

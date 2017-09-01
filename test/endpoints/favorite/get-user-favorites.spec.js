@@ -29,7 +29,7 @@ describe('Qobuz', function () {
       it('should return the user\'s favorites in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get-user-favorites.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.favorite.getUserFavorites('MyAuThTokEn', null, 'albums', 2).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

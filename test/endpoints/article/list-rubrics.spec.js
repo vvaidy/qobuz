@@ -19,7 +19,7 @@ describe('Qobuz', function () {
       it('should return the rubric list in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./list-rubrics.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.article.listRubrics(8).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

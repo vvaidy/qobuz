@@ -29,7 +29,7 @@ describe('Qobuz', function () {
       it('should return the user\'s tracks in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get-tracks.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.collection.getTracks('MyAuThTokEn', null, null, null, null, 2).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();
@@ -43,7 +43,7 @@ describe('Qobuz', function () {
         it('should return the user\'s filtered tracks in JSON', function (done) {
           const client = new Qobuz(appId);
           const expected = require('./get-tracks-filtered.json');
-          const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+          const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
           client.collection.getTracks('MyAuThTokEn', null, null, null, 'dio', 2).should.eventually.deep.equal(expected).and.notify((err) => {
             stub.restore();

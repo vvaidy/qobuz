@@ -31,7 +31,7 @@ describe('Qobuz', function () {
       it('should return the playlist in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./update.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.playlist.update('MyUsErToKeN', '925206', 'greatPlaylist').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

@@ -29,7 +29,7 @@ describe('Qobuz', function () {
       it('should return the search results and their tracks in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./search.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.catalog.search('Thriller', 'tracks', 2).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

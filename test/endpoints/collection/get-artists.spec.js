@@ -29,7 +29,7 @@ describe('Qobuz', function () {
       it('should return the user\'s artists in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./get-artists.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.collection.getArtists('MyAuThTokEn', null, null, 2).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

@@ -23,7 +23,7 @@ describe('Qobuz', function () {
       it('should return the the album recommandations in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./getFeatured.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.album.getFeatured('new-releases', 64, 2).should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

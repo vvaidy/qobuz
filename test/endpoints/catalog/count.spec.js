@@ -23,7 +23,7 @@ describe('Qobuz', function () {
       it('should return the count results in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./count.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.catalog.count('Radiohead').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

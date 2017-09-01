@@ -47,7 +47,7 @@ describe('Qobuz', function () {
       it('should return total create in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./create.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.comment.create('MyAuThTokEn', 'album', '0886443927087', 'Cet album est génial').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

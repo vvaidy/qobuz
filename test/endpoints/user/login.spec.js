@@ -31,7 +31,7 @@ describe('Qobuz', function () {
       it('should return the user in JSON', function (done) {
         const client = new Qobuz(appId);
         const expected = require('./login.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
 
         client.user.login('myLogin', '123456789abcdefghij', '16922031-0352-59D3-ADA2-B8E48236E8F0').should.eventually.deep.equal(expected).and.notify((err) => {
           stub.restore();

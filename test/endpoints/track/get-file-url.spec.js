@@ -38,7 +38,7 @@ describe('Qobuz', function () {
       it('should return the file url in JSON', function (done) {
         const client = new Qobuz(appId, appSecret);
         const expected = require('./get-file-url.json');
-        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, null, expected));
+        const stub = sinon.stub(request, 'get').callsFake((options, callback) => callback(null, { statusCode: 200 }, expected));
         const requestTs = 1431447073;
         const clock = sinon.useFakeTimers(requestTs * 1000);
 
