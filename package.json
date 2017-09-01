@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "preversion": "npm test",
-    "postversion": "git push && git push --tags"
+    "postversion": "npm publish && git push && git push --tags"
   },
   "repository": {
     "type": "git",
